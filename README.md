@@ -1,2 +1,2 @@
 # StudyCycles-1
-Privet,Zoben, Kak dela?
+Privet, Zoben, Kak dela?
