@@ -11,11 +11,12 @@ class TimerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_timer)
     }
+
     companion object {
 
-        fun startActivity(btnStart: FragmentActivity) {
-            val intent = Intent(btnStart, TimerActivity::class.java)
-            btnStart.startActivity(intent)
+        fun startActivity(activity: FragmentActivity) {
+            val intent = Intent(activity, TimerActivity::class.java)
+            activity.startActivity(intent)
         }
     }
 }

@@ -3,6 +3,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
         <!-- Customize your theme here. -->
+
         <item name="colorPrimary">#8F7CAA</item>
         <item name="colorPrimaryDark">#4A3F65</item>
         <item name="colorAccent">#20776E</item>
