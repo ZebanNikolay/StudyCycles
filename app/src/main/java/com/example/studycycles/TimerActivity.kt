@@ -14,9 +14,9 @@ class TimerActivity : AppCompatActivity() {
 
     companion object {
 
-        fun startActivity(activity: FragmentActivity) {
-            val intent = Intent(activity, TimerActivity::class.java)
-            activity.startActivity(intent)
+        fun startActivity(start_timer_button: FragmentActivity) {
+            val intent = Intent(start_timer_button, TimerActivity::class.java)
+            start_timer_button.startActivity(intent)
         }
     }
 }

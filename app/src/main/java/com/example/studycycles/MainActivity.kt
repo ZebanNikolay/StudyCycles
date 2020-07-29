@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        activity.setOnClickListener { TimerActivity.startActivity(this) }
+        start_timer_button.setOnClickListener { TimerActivity.startActivity(this) }
     }
 }
 
